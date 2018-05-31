@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+
+.gamebody {
+    
+    margin:0;
+    padding: 0;
+    padding-top: 60px;
+    background-color: #394264;
+    height: 250px;
+
+}
+
+.gamebody input {
+    width: 300px;
+    height: 60px;
+    padding-left: 20px;
+    background-color: #50597b;
+    border: 1px solid white;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.gamebody button {
+    margin-top:20px;
+    color:white;
+    background-color: darkslateblue;
+    font-size: 24px;
+    width: 180px;
+    height: 60px;
+    border: white 1px solid;
+    border-radius: 10px;
+    transition: background-color 1.5s;
+}
+
+.gamebody button:hover {
+    background-color: red;
+}
+
+.count p {
+    font-size: 18px;
+    color: white;
+}
